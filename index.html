@@ -15,16 +15,17 @@
 <div>
 <center>
 <h3>Welcome!</h3><br>
-<h3 style="margin-top: 30vw;">Site School 77</h3>
+<h5>Site School 77</h5>
 <img class="glav" src="https://i.postimg.cc/nzJk0bct/1-FC38-ECF-FFE1-40-A3-97-E5-AE00-FB073599.jpg">
+<button class="vote">Vote</button>
 </center>
 <img class="plane" src="https://i.postimg.cc/GpwnnSBw/ADAEAE45-3-E74-47-C5-B698-C08496-FD6-BDB.png">
 <img class="book" src="https://i.postimg.cc/NfHKfykp/00-EE8-AD8-E8-E0-4-B88-AB75-278-B0576-C6-E2.png">
 <img class="ball" src="https://i.postimg.cc/k5z4mqRk/F2-D988-EA-2775-4-E02-ADBD-9-C0439-D78-C25.png">
 </div>
 
-<button class="info"><h2 style="font-size: 10px;">Info</h2></button>
-<button class="vote"><h2 style="font-size: 10px;">Vote</h2></button>
+<h4>News</h4>
+
 
 
 <div id="likes-container">
@@ -46,17 +47,15 @@
   }
   h1 {
     font-family: Geologica; 
-    color: rgb(0, 0, 0); 
-    margin-top: 10vw; 
+    color: #00477f; 
+    margin-top: 7vw; 
     position: fixed;
   }
   .head {
-    background-color: rgb(249, 250, 252);
+    background-color: #7dbffd;
     width: 100vw;
-    height: 20vw;
+    height: 15vw;
     position: fixed;
-    opacity: 0.5;
-    filter: alpha(Opacity=500);
   }
   .info {
     background-color: rgb(130, 164, 194);
@@ -67,18 +66,20 @@
     margin-top: 5vw;
   }
   .vote {
-    background-color: rgb(228, 228, 228);
+    background-color: #70bbf5;
     border: none;
     width: 30vw;
-    margin-left: 3vw;
-    border-radius: 10px;
-    margin-top: 5vw;
+    height: 10vw;
+    margin-left: -15vw;
+    border-radius: 20px;
+    margin-top: -80vw;
+    position: absolute;
+    font-family: Geologica;
   }
   .glav {
-    background-color: rgb(127, 160, 189);
     width: 200vw;
     height: 180vw;
-    margin-top: -5vw;
+    margin-top: 10vw;
   }
   h3 {
     position: absolute; 
@@ -86,7 +87,15 @@
     font-family: Geologica;
     color: white;
     font-size: 12vw;
-    margin-left: 5vw;
+    margin-left: 3vw;
+  }
+  h5 {
+    position: absolute; 
+    margin-top: 30vw;
+    font-family: Geologica;
+    color: white;
+    font-size: 12vw;
+    margin-left: 3vw;
   }
   .book {
     position: absolute;
@@ -106,7 +115,76 @@
     width: 100vw;
     margin-left: -10vw;
   }
+  h4 {
+    font-family: Geologica;
+    font-size: 8vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+  }
 
+  @media screen and (min-width: 320px) {
+    
+  }
+
+  @media screen and (min-width: 360px) {
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    
+  }
+
+  @media screen and (min-width: 1024px) {
+    
+  }
+
+  @media screen and (min-width: 1280px) {
+    
+  }
+
+  @media screen and (min-width: 1440px) {
+    .head {
+      height: 5vw;
+    }
+    h1 {
+      margin-top: 2vw;
+    }
+    h6 {
+      font-size: 2vw;
+      margin-left: -0vw;
+    }
+    .glav {
+      margin-top: 0vw;
+      height: 50vw;
+    }
+    h3 {
+      font-size: 5vw;
+      margin-top: 10vw;
+    }
+    .book {
+    width: 30vw;
+    margin-left: -25vw;
+    margin-top: -25vw;
+    margin-left: -8vw;
+    }
+    h5 {
+    font-size: 5vw;
+    margin-top: 15vw;
+    }
+    .ball {
+    margin-top: -30vw;
+    width: 40vw;
+    margin-left: 70vw;
+  }
+  .plane {
+    margin-top: -45vw;
+    width: 35vw;
+    margin-left: 50vw;
+  }
+  }
+
+  @media screen and (min-width: 1920px) {
+  }
 </style>
 
 <script type="module">
