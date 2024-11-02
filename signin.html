@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voices77</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <center>
+    <div class="reg">
+        <h1 style="color: rgb(226, 226, 226); font-size: 16px;">...</h1>
+        <h2>Sign In</h2>
+        <input style="margin-top: 2vw;" type="email" value="" id="email" placeholder="Email" required><br>
+        <input style="margin-top: 2vw;" type="password" value="" id="password" placeholder="Password" required><br>
+        <button class="SignUp" id="submit"><p class="sig">Sign In</p></button><br>
+        <a href="signup.html">
+        <p class="signin">Sign Up</p>
+        </a>
+    </div>
+    </center>
+    
+    <style>
+      body {
+        background-color: rgb(247, 247, 247);
+      }
+      input {
+        border: none;
+        background-color: rgb(226, 226, 226);
+        border-bottom: 2px solid rgb(117, 133, 167);
+        width: 60vw;
+        height: 8vw;
+      }
+      h2 {
+        font: 6vw Geologica;
+      }
+      input,
+      input::placeholder {
+        font: 3vw Geologica;
+      }
+      .reg {
+        background-color: rgb(226, 226, 226); 
+        width: 75vw; 
+        height: 85vw; 
+        margin-top: 30vw; 
+        border-radius: 25px;
+      }
+      .SignUp {
+        margin-top: 10vw; 
+        width: 60vw; 
+        height: 10vw; 
+        border-radius: 25px; 
+        border: none; 
+        background-color: rgb(143, 159, 194);
+        cursor: pointer;
+      }
+      .sig {
+        font-family: Geologica; 
+        color: white; 
+        font-size: 3vw;
+      }
+      .signin {
+        font-family: Geologica; 
+        font-size: 3vw;
+        cursor: pointer;
+      }
+    
+      @media screen and (min-width: 530px) and (max-width: 767px) {
+        .reg {
+          margin-top: 10vw;
+          width: 50vw;
+          height: 55vw;
+        }    
+        input {
+          height: 5vw;
+          width: 40vw;
+        }
+        input,
+        input::placeholder {
+          font: 2vw Geologica;
+        }
+        h2 {
+          font: 5vw Geologica;
+        }
+        .SignUp {
+          width: 40vw;
+          height: 5vw;
+          margin-top: 5vw;
+        }
+        .sig {
+          font-size: 2vw;
+          position: relative;
+          margin-top: 1vw;
+        }
+        .signin {
+          font-size: 2vw;
+        }    
+      }
+    
+      @media screen and (min-width: 768px) {
+        .reg {
+          width: 40vw;
+          height: 40vw;
+          margin-top: 10vw;
+        }
+        input {
+          height: 4vw;
+          width: 25vw;
+        }
+        input,
+        input::placeholder {
+          font: 2vw Geologica;
+        }
+        h2 {
+          font: 3vw Geologica;
+        }
+        .SignUp {
+          width: 25vw;
+          height: 4vw;
+          margin-top: 3vw;
+        }
+        .sig {
+          font-size: 2vw;
+          position: relative;
+          margin-top: 1vw;
+        }
+        .signin {
+          font-size: 2vw;
+        }    
+      }
+    
+      @media screen and (min-width: 1024px) {
+        .reg {
+          width: 40vw;
+          height: 45vw;
+          margin-top: 5vw;
+        }
+        input {
+          height: 5vw;
+          width: 35vw;
+        }
+        input,
+        input::placeholder {
+          font: 2vw Geologica;
+        }
+        h2 {
+          font: 4vw Geologica;
+        }
+        .SignUp {
+          width: 35vw;
+          height: 5vw;
+          margin-top: 5vw;
+        }
+        .sig {
+          font-size: 2vw;
+        }
+        .signin {
+          font-size: 2vw;
+        }
+      }
+    
+      @media screen and (min-width: 1136px) and (max-width: 1439px) {
+        .reg {
+          width: 30vw;
+          height: 35vw;
+          margin-top: 5vw;
+        }
+        input {
+          height: 4vw;
+          width: 25vw;
+        }
+        input,
+        input::placeholder {
+          font: 2vw Geologica;
+        }
+        h2 {
+          font: 40px Geologica;
+        }
+        .SignUp {
+          width: 25vw;
+          height: 4vw;
+          margin-top: 3vw;
+        }
+        .sig {
+          font-size: 1vw;
+        }
+        .signin {
+          font-size: 1vw;
+        }
+      }
+    
+    
+      @media screen and (min-width: 1440px) {
+        .reg {
+          width: 30vw;
+          height: 35vw;
+          margin-top: 5vw;
+        }
+        input {
+          height: 3vw;
+          width: 25vw;
+        }
+        input,
+        input::placeholder {
+          font: 2vw Geologica;
+        }
+        h2 {
+          font: 40px Geologica;
+        }
+        .SignUp {
+          width: 25vw;
+          height: 4vw;
+          margin-top: 3vw;
+        }
+        .sig {
+          font-size: 1vw;
+        }
+        .signin {
+          font-size: 1vw;
+        }   
+      }
+    
+      @media screen and (min-width: 1920px) {
+        .reg {
+          width: 40vw;
+          height: 45vw;
+          margin-top: 15vw;
+        }
+        input {
+          height: 5vw;
+          width: 35vw;
+        }
+        input,
+        input::placeholder {
+          font: 3vw Geologica;
+        }
+        h2 {
+          font: 4vw Geologica;
+        }
+        .SignUp {
+          width: 35vw;
+          height: 5vw;
+          margin-top: 5vw;
+        }
+        .sig {
+          font-size: 2vw;
+        }
+        .signin {
+          font-size: 2vw;
+        }          
+      }
+</style>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+  import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
+  import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-auth.js";
+
+  const firebaseConfig = {
+      apiKey: "AIzaSyDFMiKbqbngn0kd5bvRmaU_zP-Rmfp-FLc",
+      authDomain: "voices77.firebaseapp.com",
+      databaseURL: "https://voices77-default-rtdb.firebaseio.com",
+      projectId: "voices77",
+      storageBucket: "voices77.appspot.com",
+      messagingSenderId: "1011794629005",
+      appId: "1:1011794629005:web:f13f1a6d544cd835506dc4",
+      measurementId: "G-SGR6XX94HD"
+    };
+
+  const app = initializeApp(firebaseConfig);
+  const auth = getAuth();
+  const db = getDatabase(app);
+
+  document.getElementById("submit").addEventListener('click', function(e){
+    e.preventDefault();
+
+    const email = document.getElementById("email").value; 
+    const password = document.getElementById("password").value;
+
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        const user = userCredential.user;
+        // Перенаправление на другую страницу
+        window.location.href = "vote.html"; // Замените "menu.html" на нужный URL
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        alert("Ошибка входа");
+      });
+  });
+</script>
+
+</body>
+</html>
